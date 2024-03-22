@@ -26,6 +26,8 @@ public class Main {
             result = calc.dividir();
             System.out.println("Div: " + result);
         }
+        boolean primo = calc.verificarNmrPrimo(sc.nextInt());
+        System.out.println(primo);
 
 
         sc.close();

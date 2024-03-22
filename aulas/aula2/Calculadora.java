@@ -19,5 +19,9 @@ public class Calculadora {
     Double dividir() {
         return nmbA / nmbB;
     }
+
+    Boolean verificarNmrPrimo(int nmb){
+        return nmb % 2 == 1;
+    }
 }
 
