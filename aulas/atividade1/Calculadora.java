@@ -1,4 +1,4 @@
-package aulas.aula2;
+package aulas.atividade1;
 
 public class Calculadora {
     Double nmbA;
