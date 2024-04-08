@@ -1,16 +1,20 @@
 package aulas.aula3;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Livraria {
-    ArrayList<Livro> livros;
+
+    List<Livro> livros = new ArrayList<>();
 
     public Livraria(){
 
     }
-    public Livraria(ArrayList<Livro> livros) {
+
+    public Livraria(List<Livro> livros) {
         this.livros = livros;
     }
+
     public void cadastrarLivro(Livro livro){
         livros.add(livro);
     }

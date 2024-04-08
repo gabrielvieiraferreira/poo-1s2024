@@ -2,8 +2,6 @@ package aulas.aula3.application;
 
 import aulas.aula3.Livraria;
 import aulas.aula3.Livro;
-
-import javax.xml.crypto.Data;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -48,6 +46,8 @@ public class LivrariaTest {
                 case 3:
                     System.out.println("Detalhando livros");
                     break;
+                case 4:
+                    System.out.println("Êxito em sair");
                 default:
                     System.out.println("Opção Inválida");
                     break;
