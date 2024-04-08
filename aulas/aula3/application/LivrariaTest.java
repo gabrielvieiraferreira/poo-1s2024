@@ -13,6 +13,7 @@ public class LivrariaTest {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
         Livraria livraria = new Livraria();
         int opcao = 0;
+        int mudan = 2;
 
         while (opcao != 4){
             System.out.println("1 - Adicionar livro");
