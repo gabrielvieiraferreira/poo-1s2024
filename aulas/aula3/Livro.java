@@ -12,6 +12,9 @@ public class Livro {
     public Livro(){
 
     }
+    public Livro (Integer id){
+        this.id = id;
+    }
 
     public Livro(Integer id, String titulo, String nomeEAutor, Date anoPublicacao, String editora) {
         this.id = id;
